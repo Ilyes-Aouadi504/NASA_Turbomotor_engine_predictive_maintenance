@@ -10,3 +10,4 @@ if __name__ == "__main__":
     y_true = [100, 50]
     y_pred = [90, 60]      # one early by 10, one late by 10
     print(rmse(y_true, y_pred), mae(y_true, y_pred), nasa_score(y_true, y_pred))
+    
